@@ -1,0 +1,101 @@
+.ostrov{
+  background: #F0F0F0;
+  &__hero{
+    padding: 80px 120px;
+  }
+  &__title{
+    font-weight: 500;
+font-size: 36px;
+line-height: 150%;
+color: #000000;
+
+  }
+  &__list__title{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  &__list{
+    padding: 28px 0;
+display: flex;
+align-items: center;
+gap: 40px;
+  }
+  &__item__hr{
+    margin-top: 78px;
+    margin-left: 215px;
+    width: 360px;
+height: 8px;
+    background: #EE1B24;
+  }
+  &__item__hr__2{
+    margin-top: 42px;
+    margin-left: 215px;
+    width: 360px;
+height: 8px;
+    background: #EE1B24;
+  }
+  &__item__hr__3{
+    margin-top: 7px;
+    margin-left: 215px;
+    width: 360px;
+height: 8px;
+    background: #EE1B24;
+  }
+  &__item__hr__4{
+    margin-top: 43px;
+    margin-left: 215px;
+    width: 360px;
+height: 8px;
+    background: #EE1B24;
+  }
+  
+  &__item__title{
+    padding: 0 50px;
+    font-weight: 700;
+font-size: 24px;
+line-height: 130%;
+color: #000000;
+  }
+  &__item__text{
+    padding: 16px 40px;
+    font-weight: 400;
+font-size: 24px;
+line-height: 150%;
+color: #000000;
+  }
+  &__item{
+    width: 576px;
+    height: 340px;
+    background: #FFFFFF;
+  }
+}
+@media screen and (max-width:768px) {
+  .ostrov{
+    width: 100%;
+  }
+  .ostrov__list{
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width:475px) {
+  .ostrov__item{
+    width: 372px;
+  }
+  .ostrov__item__hr{
+margin-left: 0px;
+  }
+  .ostrov__item__hr__2{
+    margin-left: 0px;
+  }
+  .ostrov__item__hr__3{
+    margin-left: 0px;
+  }
+  .ostrov__item__hr__4{
+    margin-left: 0px;
+  }
+  .ostrov__list__title{
+    gap: 0px;
+  }
+}
